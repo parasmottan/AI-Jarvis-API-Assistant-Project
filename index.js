@@ -5,7 +5,7 @@ const GetFile = document.querySelector('#get-file');
 const fileuploadCover = document.querySelector(".file-upload-cover");
 const cancelUploadButton = document.querySelector("#file-cancel")
 
-const API_KEY = "AIzaSyA15nQijtZpm_e0F63XKrZzwowxNFjI2J0";
+const API_KEY = "AIzaSyA15nQijtZpm_e0F63XKrZzwowxNFjI2J0GGHJ";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 const userData = {
